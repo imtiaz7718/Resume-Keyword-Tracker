@@ -4,3 +4,4 @@ pdfplumber
 docx2txt
 nltk
 spacy
+scikit-learn
