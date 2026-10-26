@@ -4,6 +4,8 @@ from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+nltk.download("stopwords", quiet=True)
+nltk.download("punkt", quiet=True)
 # Ensure stop words are ready
 stop_words = set(stopwords.words("english"))
 
